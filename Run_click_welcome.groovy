@@ -7,9 +7,9 @@ pipeline {
                 bat 'python click().py'
             }
         }
-        stage('checkout') {
+        stage('welcome') {
             steps {
-                bat 'welcome().py'
+                bat 'python welcome().py'
             }
         }
     }
